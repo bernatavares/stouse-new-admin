@@ -20,11 +20,9 @@ export const receiveProducts = products => ({
 export const getAllProducts = () => dispatch => {
     dispatch(fetchProductsBegin());
     const query = querys.getAllProductsQuery();
-    let objects;
+    let products;
     client.send(query).then(({model, data}) => {
-      objects = model;
-      console.log(model); 
-      console.log(data); 
+      dispatch(receiveProducts(model.shop.products));
     });
 }
 export const fetchSingleProduct = productId => ({

@@ -6,6 +6,7 @@ export const getAllProductsQuery = () => {
         shop.add('name');
         shop.addConnection('products', {args: {first: 10}}, (product) => {
             product.add('title');
+            product.add('id');
         });
         });
     });
