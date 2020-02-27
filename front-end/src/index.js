@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { ScrollContext } from 'react-router-scroll-4';
 import { IntlReducer as Intl, IntlProvider } from 'react-redux-multilingual'
+import GraphQLClient from 'graphql-js-client';
 import './index.scss';
 
 // Import custom components
@@ -11,6 +12,8 @@ import store from './store';
 import translations from './constants/translations'
 import { getAllProducts } from './actions'
 import Landing from './components/landing'
+
+import typeBundle from './types/types';
 
 
 // Layouts
@@ -88,11 +91,19 @@ import ElementProductTab from "./components/features/product/element-product-tab
 import GridCols from "./components/features/portfolio/grid-cols"
 import MasonaryGridCols from "./components/features/portfolio/masonary-grid-cols"
 
+export const client = new GraphQLClient(typeBundle, {
+  url: 'https://white-label-printing.myshopify.com/api/graphql',
+  fetcherOptions: {
+    headers: {
+      'X-Shopify-Storefront-Access-Token': '0acb22371b092b908310309d7415878e'
+    }
+  }
+});
 
 class Root extends React.Component {
 
     render() {
-        store.dispatch(getAllProducts());
+        store.dispatch(getAllProducts(client));
 
         return(
         	<Provider store={store}>
@@ -191,6 +202,6 @@ class Root extends React.Component {
     }
 }
 
-ReactDOM.render(<Root />, document.getElementById('root'));
+ReactDOM.render(<Root client={client}/>, document.getElementById('root'));
 
 

@@ -1,6 +1,8 @@
 import shop from '../api/shop'
 import * as types from '../constants/ActionTypes'
+import * as querys from '../querys/querys'
 import store from "../store";
+import { client } from '../index';
 import { toast  } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
@@ -17,10 +19,11 @@ export const receiveProducts = products => ({
 
 export const getAllProducts = () => dispatch => {
     dispatch(fetchProductsBegin());
-    shop.getProducts(products => {
-        dispatch(receiveProducts(products));
-        return products;
-    })
+    const query = querys.getAllProductsQuery();
+    client.send(query).then(({model, data}) => {
+      console.log(model.shop.products);
+      dispatch(receiveProducts(model.shop.products));
+    });
 }
 export const fetchSingleProduct = productId => ({
     type: types.FETCH_SINGLE_PRODUCT,
