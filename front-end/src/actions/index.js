@@ -20,8 +20,8 @@ export const receiveProducts = products => ({
 export const getAllProducts = () => dispatch => {
     dispatch(fetchProductsBegin());
     const query = querys.getAllProductsQuery();
-    let products;
     client.send(query).then(({model, data}) => {
+      console.log(model.shop.products);
       dispatch(receiveProducts(model.shop.products));
     });
 }

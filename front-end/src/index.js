@@ -102,25 +102,6 @@ export const client = new GraphQLClient(typeBundle, {
 
 class Root extends React.Component {
 
-    componentWillMount() {
-        const client = this.props.client;
-
-        // const query = client.query((root) => {
-        //   root.add('shop', (shop) => {
-        //     shop.add('name');
-        //     shop.addConnection('products', {args: {first: 10}}, (product) => {
-        //       product.add('title');
-        //     });
-        //   });
-        // });
-        // let objects;
-        // client.send(query).then(({model, data}) => {
-        //   objects = model;
-        //   console.log(model); // The serialized model with rich features
-        //   console.log(data); // The raw data returned from the API endpoint
-        // });
-    }
-
     render() {
         store.dispatch(getAllProducts(client));
 
