@@ -54,7 +54,7 @@
 .form-label-center {
   .form-group {
     label {
-      margin-top: 8px;
+      margin-bottom: 8px;
     }
     .form-group {
       margin-bottom: 0;
@@ -267,8 +267,8 @@ a {
   .form-group {
     align-items: center;
     label {
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 12px;
+      font-weight: bold;
     }
     &:last-child {
       align-items: end;
@@ -3574,7 +3574,6 @@ $i: 1;
         width: 100% !important;
       }
       label {
-        margin-bottom: 0 !important;
       }
     }
   }

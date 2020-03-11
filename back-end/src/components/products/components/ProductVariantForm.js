@@ -11,7 +11,12 @@ export class ProductVariantForm extends Component {
         return (
             <div className="variant-form row">
                 <div className="col-xl-1 col-sm-1 check_box">
-                    <input className="checkbox_animated" id="chk-ani2" type="checkbox" name="customizable" />
+                    <input
+                        style={{ marginTop: '40px' }}
+                        className="checkbox_animated"
+                        id="chk-ani2"
+                        type="checkbox"
+                        name="customizable" />
                 </div>
                 <div className="col-xl-11 col-sm-11">
                     <div className="row">
