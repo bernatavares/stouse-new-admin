@@ -35,7 +35,7 @@ export class App extends Component {
                         <Footer />
                     </div>
                 </div>
-                <div className="btn-light custom-theme" onClick={() => this.ChangeRtl(this.state.divName)}>{this.state.divName}</div>
+                {/* <div className="btn-light custom-theme" onClick={() => this.ChangeRtl(this.state.divName)}>{this.state.divName}</div> */}
             </div>
         )
     }
