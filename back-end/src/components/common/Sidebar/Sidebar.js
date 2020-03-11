@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from 'react'
 import User_panel from './UserPannel';
 import { Link } from 'react-router-dom';
-import { MENUITEMS } from '../../../constants/menu';
+import { MENUITEMS } from 'constants/menu';
 
 // image import
-import logo from '../../../assets/images/dashboard/multikart-logo.png'
+import logo from 'assets/images/dashboard/multikart-logo.png'
 
 export class Sidebar extends Component {
 
