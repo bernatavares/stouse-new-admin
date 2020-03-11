@@ -2,9 +2,12 @@ import React, { Component, Fragment } from 'react';
 import Breadcrumb from '../common/Breadcrumb';
 import CKEditors from "react-ckeditor-component";
 import { AvField, AvForm } from 'availity-reactstrap-validation';
-import one from 'assets/images/pro3/1.jpg'
+
+import ProductVariantForm from './components/ProductVariantForm';
+import ProductPhotoUpload from './components/ProductPhotoUpload';
+
 import user from 'assets/images/user.png';
-import ProductVariantForm from './ProductVariantForm';
+
 
 export class AddProduct extends Component {
     constructor(props) {
@@ -83,31 +86,10 @@ export class AddProduct extends Component {
                                 </div>
                                 <div className="card-body">
                                     <div className="row product-adding">
-                                        <div className="col-sm-12 col-md-6 col-lg-5 col-xl-5">
-                                            <div className="add-product">
-                                                <div className="block-image">
-                                                    <img src={one} alt="" className="image_zoom_1 blur-up lazyloaded" />
-                                                </div>
-                                                <div className="block-file-upload">
-                                                    <ul className="file-upload-product">
-                                                        {
-                                                            this.state.dummyimgs.map((res, i) => {
-                                                                return (
-                                                                    <li key={i}>
-                                                                        <div className="box-input-file">
-                                                                            <input className="upload" type="file" onChange={(e) => this._handleImgChange(e, i)} />
-                                                                            <img src={res.img} style={{ width: 50, height: 50 }} />
-                                                                            <a id="result1" onClick={(e) => this._handleSubmit(e.target.id)}></a>
-                                                                        </div>
-                                                                    </li>
-                                                                )
-                                                            })
-                                                        }
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                        <div className="col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                                            <ProductPhotoUpload />
                                         </div>
-                                        <div className="col-sm-12 col-md-6 col-lg-7 col-xl-7">
+                                        <div className="col-sm-12 col-md-12 col-lg-7 col-xl-7">
                                             <AvForm className="needs-validation add-product-form" onValidSubmit={this.handleValidSubmit} onInvalidSubmit={this.handleInvalidSubmit}>
                                                 <div className="form form-label-center">
                                                     <div className="form-group mb-3">
