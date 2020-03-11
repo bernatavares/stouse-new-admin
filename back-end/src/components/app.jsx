@@ -1,24 +1,24 @@
 import React, { Component } from 'react'
-import Sidebar from './common/sidebar_components/sidebar';
+import Sidebar from './common/Sidebar/';
 import Right_sidebar from './common/right-sidebar';
 import Footer from './common/footer';
-import Header from './common/header_components/header';
+import Header from './common/Header/Header';
 
 export class App extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
-        this.state ={
-            ltr:true,
-            divName:'RTL',
+        this.state = {
+            ltr: true,
+            divName: 'RTL',
         }
     }
-    ChangeRtl(divName){
-        if(divName === 'RTL') {
+    ChangeRtl(divName) {
+        if (divName === 'RTL') {
             document.body.classList.add('rtl');
-            this.setState({divName: 'LTR'});
-        }else{
+            this.setState({ divName: 'LTR' });
+        } else {
             document.body.classList.remove('rtl');
-            this.setState({divName: 'RTL'});
+            this.setState({ divName: 'RTL' });
         }
     }
     render() {
@@ -32,10 +32,10 @@ export class App extends Component {
                         <div className="page-body">
                             {this.props.children}
                         </div>
-                            <Footer />
+                        <Footer />
                     </div>
                 </div>
-                <div className="btn-light custom-theme" onClick={ () => this.ChangeRtl(this.state.divName)}>{this.state.divName}</div>
+                <div className="btn-light custom-theme" onClick={() => this.ChangeRtl(this.state.divName)}>{this.state.divName}</div>
             </div>
         )
     }
