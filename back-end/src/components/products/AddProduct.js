@@ -10,66 +10,13 @@ import user from 'assets/images/user.png';
 
 
 export class AddProduct extends Component {
+
     constructor(props) {
-        super(props)
+        super(props);
+
         this.state = {
-            quantity: 1,
-            file: '',
-            dummyimgs: [
-                { img: user },
-                { img: user },
-                { img: user },
-                { img: user },
-                { img: user }
-            ]
+            content: "CK editor"
         }
-    }
-    IncrementItem = () => {
-        this.setState(prevState => {
-            if (prevState.quantity < 9) {
-                return {
-                    quantity: prevState.quantity + 1
-                }
-            } else {
-                return null;
-            }
-        });
-    }
-    DecreaseItem = () => {
-        this.setState(prevState => {
-            if (prevState.quantity > 0) {
-                return {
-                    quantity: prevState.quantity - 1
-                }
-            } else {
-                return null;
-            }
-        });
-    }
-    handleChange = (event) => {
-        this.setState({ quantity: event.target.value });
-    }
-
-    //image upload
-    _handleSubmit(e) {
-        e.preventDefault();
-    }
-
-    _handleImgChange(e, i) {
-        e.preventDefault();
-
-        let reader = new FileReader();
-        let file = e.target.files[0];
-        const { dummyimgs } = this.state;
-
-        reader.onloadend = () => {
-            dummyimgs[i].img = reader.result;
-            this.setState({
-                file: file,
-                dummyimgs,
-            });
-        }
-        reader.readAsDataURL(file)
     }
 
     render() {

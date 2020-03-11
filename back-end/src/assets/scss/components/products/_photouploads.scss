@@ -1,0 +1,17 @@
+.product-photo-upload {
+    display: flex;
+    justify-content: center;
+    .block-image {
+        img {
+            width: 300px;
+            height: 300px;
+        }
+        margin-right: 30px;
+    }
+    .box-input-file {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

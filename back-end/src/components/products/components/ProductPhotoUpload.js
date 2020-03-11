@@ -65,10 +65,10 @@ class ProductPhotoUpload extends Component {
             });
         }
         reader.readAsDataURL(file)
-    } s
+    }
     render() {
         return (
-            <div className="add-product">
+            <div className="add-product product-photo-upload">
                 <div className="block-image">
                     <img src={one} alt="" className="image_zoom_1 blur-up lazyloaded" />
                 </div>
@@ -80,7 +80,7 @@ class ProductPhotoUpload extends Component {
                                     <li key={i}>
                                         <div className="box-input-file">
                                             <input className="upload" type="file" onChange={(e) => this._handleImgChange(e, i)} />
-                                            <img src={res.img} style={{ width: 50, height: 50 }} />
+                                            <img src={res.img} />
                                             <a id="result1" onClick={(e) => this._handleSubmit(e.target.id)}></a>
                                         </div>
                                     </li>
