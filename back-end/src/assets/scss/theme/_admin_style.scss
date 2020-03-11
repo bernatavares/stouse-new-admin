@@ -1938,7 +1938,6 @@ $header-size: 80px;
         align-items: center;
         > li {
           position: relative;
-          border-left: 1px solid $light-semi-gray;
           padding: 0 20px;
           &:first-child {
             width: 25%;
@@ -1976,13 +1975,12 @@ $header-size: 80px;
             }
           }
           &:last-child {
-            border-left: none;
+            border-left: 1px solid $light-semi-gray;
             padding-right: 0;
+            padding-left: 10px;
           }
-          &:nth-child(5) {
-            border-left: none;
-            border-right: 1px solid $light-semi-gray;
-            padding-left: 0;
+          &:nth-child(1) {
+            padding-right: 0px;
           }
           h6 {
             margin-top: 4px;
