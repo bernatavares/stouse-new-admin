@@ -84,8 +84,13 @@ export class Header extends Component {
                         </div>
                         <div className="nav-right col">
                             <ul className={"nav-menus " + (this.state.navMenus ? 'open' : '')}>
-                                <li> <button className="btn btn-solid"> View Store</button> </li>
-                                <li className="onhover-dropdown"><Bell /><span className="badge badge-pill badge-primary pull-right notification-badge">3</span><span className="dot"></span>
+                                <li>
+                                    <button className="btn btn-primary"> View Store</button>
+                                </li>
+                                <li className="onhover-dropdown">
+                                    <Bell />
+                                    <span className="badge badge-pill badge-primary pull-right notification-badge">3</span>
+                                    <span className="dot"></span>
                                     <Notification />
                                 </li>
                                 <UserMenu />
