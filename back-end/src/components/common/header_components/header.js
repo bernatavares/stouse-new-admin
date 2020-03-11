@@ -1,12 +1,10 @@
-import React, { Component,Fragment } from 'react'
-import SearchHeader from './searchHeader';
+import React, { Component, Fragment } from 'react'
 import Notification from './notification';
-import User_menu from './user-menu';
-import Language from './language';
-import { AlignLeft, Maximize2, Bell, MessageSquare, MoreHorizontal } from 'react-feather';
+import UserMenu from './UserMenu';
+import { AlignLeft, Bell, MoreHorizontal } from 'react-feather';
 
 //images
-import logo from '../../../assets/images/dashboard/multikart-logo.png'
+// import logo from 'assets/images/dashboard/multikart-logo.png'
 
 export class Header extends Component {
     constructor(props) {
@@ -71,31 +69,26 @@ export class Header extends Component {
                         <div className="main-header-left d-lg-none" >
                             <div className="logo-wrapper">
                                 <a href="index.html">
-                                    <img className="blur-up lazyloaded" src={logo} alt="" />
+                                    {/* <img className="blur-up lazyloaded" src={logo} alt="" /> */}
                                 </a>
                             </div>
                         </div>
                         <div className="mobile-sidebar">
                             <div className="media-body text-right switch-sm">
-                                <label className="switch"><a onClick={this.openCloseSidebar}><AlignLeft /></a></label>
+                                <label className="switch">
+                                    <a onClick={this.openCloseSidebar}>
+                                        <AlignLeft />
+                                    </a>
+                                </label>
                             </div>
                         </div>
                         <div className="nav-right col">
                             <ul className={"nav-menus " + (this.state.navMenus ? 'open' : '')}>
-                                <li>
-                                    <SearchHeader />
-                                </li>
-                                <li><a onClick={this.goFull} className="text-dark" href="#!"><Maximize2 /></a></li>
-                                <li className="onhover-dropdown"><a className="txt-dark" href="#">
-                                    <h6>EN</h6></a>
-                                    <Language />
-                                </li>
-
+                                <li> <button className="btn btn-dark"> View Store</button> </li>
                                 <li className="onhover-dropdown"><Bell /><span className="badge badge-pill badge-primary pull-right notification-badge">3</span><span className="dot"></span>
                                     <Notification />
                                 </li>
-                                <li><a onClick={this.showRightSidebar}><MessageSquare /><span className="dot"></span></a></li>
-                                <User_menu />
+                                <UserMenu />
                             </ul>
                             <div className="d-lg-none mobile-toggle pull-right" onClick={() => this.toggle()}><MoreHorizontal /></div>
                         </div>
