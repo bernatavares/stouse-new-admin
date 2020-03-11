@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import data from '../../assets/data/reports';
-import Datatable from '../common/datatable'
+import Datatable from '../common/Datatable'
 
 export class Report_table extends Component {
     render() {

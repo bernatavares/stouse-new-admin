@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Sidebar from './common/Sidebar/';
-import Right_sidebar from './common/right-sidebar';
-import Footer from './common/footer';
+import RightSidebar from './common/RightSidebar';
+import Footer from './common/Footer';
 import Header from './common/Header/Header';
 
 export class App extends Component {
@@ -28,7 +28,7 @@ export class App extends Component {
                     <Header />
                     <div className="page-body-wrapper">
                         <Sidebar />
-                        <Right_sidebar />
+                        <RightSidebar />
                         <div className="page-body">
                             {this.props.children}
                         </div>

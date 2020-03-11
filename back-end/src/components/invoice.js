@@ -1,13 +1,13 @@
 import React, { Component, Fragment } from 'react';
-import Breadcrumb from '../components/common/breadcrumb';
+import Breadcrumb from './common/Breadcrumb';
 import data from '../assets/data/invoice';
-import Datatable from '../components/common/datatable';
+import Datatable from './common/Datatable';
 
 export class Invoice extends Component {
     render() {
         return (
             <Fragment>
-                <Breadcrumb title="Invoice" parent="Invoice"/>
+                <Breadcrumb title="Invoice" parent="Invoice" />
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-sm-12">

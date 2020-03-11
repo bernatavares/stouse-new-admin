@@ -1,5 +1,5 @@
-import React, { Component,Fragment } from 'react';
-import Breadcrumb from '../../common/breadcrumb';
+import React, { Component, Fragment } from 'react';
+import Breadcrumb from '../../common/Breadcrumb';
 import CKEditors from "react-ckeditor-component";
 import { AvField, AvForm } from 'availity-reactstrap-validation';
 import one from '../../../assets/images/pro3/1.jpg'

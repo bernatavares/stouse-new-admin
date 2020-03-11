@@ -1,9 +1,9 @@
-import React, { Component, Fragment} from 'react'
-import Breadcrumb from '../../common/breadcrumb';
+import React, { Component, Fragment } from 'react'
+import Breadcrumb from '../../common/Breadcrumb';
 import Modal from 'react-responsive-modal';
 import 'react-toastify/dist/ReactToastify.css';
 import data from '../../../assets/data/category';
-import Datatable from '../../common/datatable';
+import Datatable from '../../common/Datatable';
 
 export class Category extends Component {
     constructor(props) {
@@ -63,10 +63,10 @@ export class Category extends Component {
                                     <div id="basicScenario" className="product-physical">
                                         <Datatable
                                             multiSelectOption={false}
-                                            myData={data} 
-                                            pageSize={10} 
+                                            myData={data}
+                                            pageSize={10}
                                             pagination={true}
-                                            class="-striped -highlight" 
+                                            class="-striped -highlight"
                                         />
                                     </div>
                                 </div>

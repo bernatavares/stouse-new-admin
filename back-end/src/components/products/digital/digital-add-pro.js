@@ -1,7 +1,7 @@
-import React, { Component,Fragment } from 'react';
-import Breadcrumb from '../../common/breadcrumb';
+import React, { Component, Fragment } from 'react';
+import Breadcrumb from '../../common/Breadcrumb';
 import CKEditors from "react-ckeditor-component";
-import MyDropzone from '../../common/dropzone'
+import MyDropzone from '../../common/Dropzone'
 
 export class Digital_add_pro extends Component {
     constructor(props) {

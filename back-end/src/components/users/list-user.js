@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom'
-import Breadcrumb from '../common/breadcrumb';
+import Breadcrumb from '../common/Breadcrumb';
 import data from '../../assets/data/listUser';
-import Datatable from '../common/datatable'
+import Datatable from '../common/Datatable'
 
 
 export class List_user extends Component {

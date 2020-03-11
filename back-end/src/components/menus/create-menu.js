@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import Breadcrumb from '../common/breadcrumb';
+import Breadcrumb from '../common/Breadcrumb';
 
 export class Create_menu extends Component {
     render() {
@@ -20,7 +20,7 @@ export class Create_menu extends Component {
                                             <input className="form-control col-md-8" id="validationCustom0" type="text" required="" />
                                         </div>
                                         <div className="form-group row">
-                                             <label className="col-xl-3 col-md-4">Status</label>
+                                            <label className="col-xl-3 col-md-4">Status</label>
                                             <div className=" col-xl-9 col-md-8 checkbox-space">
                                                 <label className="d-block">
                                                     <input className="checkbox_animated" id="chk-ani2" type="checkbox" />

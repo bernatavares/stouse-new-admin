@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
-import Breadcrumb from '../../common/breadcrumb';
+import Breadcrumb from '../../common/Breadcrumb';
 import data from '../../../assets/data/digital-category';
-import Datatable from '../../common/datatable';
+import Datatable from '../../common/Datatable';
 import Modal from 'react-responsive-modal';
 
 export class Digital_category extends Component {

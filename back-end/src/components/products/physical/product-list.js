@@ -1,5 +1,5 @@
-import React, { Component,Fragment } from 'react'
-import Breadcrumb from '../../common/breadcrumb';
+import React, { Component, Fragment } from 'react'
+import Breadcrumb from '../../common/Breadcrumb';
 import data from '../../../assets/data/physical_list';
 import { Edit, Trash2 } from 'react-feather'
 
@@ -26,9 +26,9 @@ export class Product_list extends Component {
                                                 <div className="card-body product-box">
                                                     <div className="img-wrapper">
                                                         <div className="lable-block">
-                                                            {(myData.tag === 'new' )?<span className="lable3">{myData.tag}</span> : ''}
-                                                            {(myData.discount === 'on sale' )?<span className="lable4">{myData.discount}</span> : '' }
-                                                            </div>
+                                                            {(myData.tag === 'new') ? <span className="lable3">{myData.tag}</span> : ''}
+                                                            {(myData.discount === 'on sale') ? <span className="lable4">{myData.discount}</span> : ''}
+                                                        </div>
                                                         <div className="front">
                                                             <a className="bg-size"><img className="img-fluid blur-up bg-img lazyloaded" src={myData.image} /></a>
                                                             <div className="product-hover">

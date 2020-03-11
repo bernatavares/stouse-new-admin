@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
-import Breadcrumb from '../common/breadcrumb'
+import Breadcrumb from '../common/Breadcrumb'
 import data from '../../assets/data/listPages';
-import Datatable from '../common/datatable';
+import Datatable from '../common/Datatable';
 
 class ListPages extends Component {
     render() {

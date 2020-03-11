@@ -44,7 +44,7 @@ import Taxes from './components/localization/taxes';
 import Profile from './components/settings/profile';
 import Reports from './components/reports/report';
 import Invoice from './components/invoice';
-import Datatable from './components/common/datatable'
+import Datatable from './components/common/Datatable'
 import Login from './components/auth/login';
 
 
@@ -55,12 +55,12 @@ class Root extends Component {
             <BrowserRouter basename={'/'}>
                 <ScrollContext>
                     <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={Login} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Login} />
                         <Route exact path={`${process.env.PUBLIC_URL}/auth/login`} component={Login} />
 
                         <App>
                             <Route path={`${process.env.PUBLIC_URL}/dashboard`} component={Dashboard} />
-                                
+
                             <Route path={`${process.env.PUBLIC_URL}/products/physical/category`} component={Category} />
                             <Route path={`${process.env.PUBLIC_URL}/products/physical/sub-category`} component={Sub_category} />
                             <Route path={`${process.env.PUBLIC_URL}/products/physical/product-list`} component={Product_list} />

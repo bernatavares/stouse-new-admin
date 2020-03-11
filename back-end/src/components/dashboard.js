@@ -1,18 +1,18 @@
-import React, { Component,Fragment } from 'react';
-import Breadcrumb from './common/breadcrumb';
+import React, { Component, Fragment } from 'react';
+import Breadcrumb from './common/Breadcrumb';
 import { Navigation, Box, MessageSquare, Users, Briefcase, CreditCard, ShoppingCart, Calendar } from 'react-feather';
 import CountUp from 'react-countup';
 import { Chart } from "react-google-charts";
 import CanvasJSReact from '../assets/canvas/canvasjs.react';
 
 import { Pie, Doughnut, Bar, Line } from 'react-chartjs-2';
-import { 
-    pieOptions, 
-    doughnutOption, 
-    lineOptions, 
-    buyOption, 
-    employeeData, 
-    employeeOptions 
+import {
+    pieOptions,
+    doughnutOption,
+    lineOptions,
+    buyOption,
+    employeeData,
+    employeeOptions
 } from '../constants/chartData'
 // image impoer
 import user2 from '../assets/images/dashboard/user2.jpg';
@@ -830,7 +830,7 @@ export class Dashboard extends Component {
                                             <div className="order-graph xl-space">
                                                 <h6>Revenue for last month</h6>
                                                 <div className="ct-4 flot-chart-container">
-                                                    <Line data={employeeData} options={employeeOptions}  />
+                                                    <Line data={employeeData} options={employeeOptions} />
                                                 </div>
                                             </div>
                                         </div>

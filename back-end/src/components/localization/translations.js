@@ -1,7 +1,7 @@
-import React, { Component,Fragment } from 'react'
-import Breadcrumb from '../common/breadcrumb';
+import React, { Component, Fragment } from 'react'
+import Breadcrumb from '../common/Breadcrumb';
 import data from '../../assets/data/translations';
-import Datatable from '../common/datatable'
+import Datatable from '../common/Datatable'
 
 export class Translations extends Component {
     render() {

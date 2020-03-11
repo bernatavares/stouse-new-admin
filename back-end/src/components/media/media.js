@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
-import Breadcrumb from '../common/breadcrumb';
-import MyDropzone from '../common/dropzone';
-import Datatable from '../common/datatable'
+import Breadcrumb from '../common/Breadcrumb';
+import MyDropzone from '../common/Dropzone';
+import Datatable from '../common/Datatable'
 import data from '../../assets/data/media';
 
 export class Media extends Component {

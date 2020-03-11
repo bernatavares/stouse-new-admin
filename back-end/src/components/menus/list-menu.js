@@ -1,7 +1,7 @@
-import React, { Component,Fragment } from 'react'
-import Breadcrumb from '../common/breadcrumb';
+import React, { Component, Fragment } from 'react'
+import Breadcrumb from '../common/Breadcrumb';
 import data from '../../assets/data/listMenu';
-import Datatable from '../common/datatable'
+import Datatable from '../common/Datatable'
 
 export class List_menu extends Component {
     render() {
@@ -17,7 +17,7 @@ export class List_menu extends Component {
                                 </div>
                                 <div className="card-body">
                                     <div id="batchDelete" className="category-table order-table coupon-list-delete">
-                                    <Datatable
+                                        <Datatable
                                             multiSelectOption={true}
                                             myData={data}
                                             pageSize={6}
