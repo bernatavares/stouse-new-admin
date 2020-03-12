@@ -72,7 +72,7 @@ class Root extends Component {
 
                             <Route path={`${process.env.PUBLIC_URL}/navigation`} component={MenuList} />
 
-                            <Route path={`${process.env.PUBLIC_URL}/customize/typography`} component={MenuList} />
+                            <Route path={`${process.env.PUBLIC_URL}/customize/typography`} component={CustomizeTypography} />
 
                         </App>
                     </Switch>
