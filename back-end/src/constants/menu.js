@@ -20,13 +20,13 @@ export const MENUITEMS = [
     },
     {
         title: 'Pages', icon: Box, type: 'sub', active: false, children: [
-            { path: '/menus', title: 'Menus', type: 'link' },
-            { path: '/add-menu', title: 'AddMenu', type: 'link' }
+            { path: '/', title: 'Children', type: 'link' },
         ]
     },
     {
         title: 'Navigation', icon: AlignLeft, type: 'sub', active: false, children: [
-            { path: '/', title: 'Children', type: 'link' },
+            { path: '/menus', title: 'Menus', type: 'link' },
+            { path: '/add-menu', title: 'AddMenu', type: 'link' }
         ]
     },
     {
