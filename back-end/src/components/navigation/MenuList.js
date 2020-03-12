@@ -32,7 +32,7 @@ export class MenuList extends Component {
                                             <p>Your store supports 4 menu variations.</p>
                                             <p>You can also create nested menus to display drop-down menus, and group products or pages together.</p>
                                         </div>
-                                        <div className="col-sm-12 col-md-9 ">
+                                        <div className="col-sm-12 col-md-9">
                                             <div className="container">
                                                 <table className="table table-bordered table-responsive-md">
                                                     <thead className="thead-white">
