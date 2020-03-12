@@ -8,6 +8,7 @@ import { ScrollContext } from 'react-router-scroll-4';
 // Components
 import Dashboard from './components/Dashboard';
 import AddProduct from './components/products/AddProduct';
+import MenuList from './components/navigation/MenuList'
 
 // // Products physical
 // import Category from './components/products/physical/category';
@@ -57,12 +58,16 @@ class Root extends Component {
                         <Route
                             exact path={`${process.env.PUBLIC_URL}/`}
                             component={() =>
-                                <Redirect to="/products/add-product" />
+                                <Redirect to="/products/add" />
                             }
                         />
                         <App>
                             <Route path={`${process.env.PUBLIC_URL}/dashboard`} component={Dashboard} />
-                            <Route path={`${process.env.PUBLIC_URL}/products/add-product`} component={AddProduct} />
+
+                            <Route path={`${process.env.PUBLIC_URL}/products/add`} component={AddProduct} />
+
+                            <Route path={`${process.env.PUBLIC_URL}/navigation`} component={MenuList} />
+
                         </App>
                     </Switch>
                 </ScrollContext>

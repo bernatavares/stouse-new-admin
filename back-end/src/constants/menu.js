@@ -25,14 +25,14 @@ export const MENUITEMS = [
     },
     {
         title: 'Navigation', icon: AlignLeft, type: 'sub', active: false, children: [
-            { path: '/menus', title: 'Menus', type: 'link' },
-            { path: '/add-menu', title: 'AddMenu', type: 'link' }
+            { path: '/navigation/', title: 'Menus', type: 'link' },
+            { path: '/navigation/add', title: 'AddMenu', type: 'link' }
         ]
     },
     {
         title: 'Products', icon: Folder, type: 'sub', active: false, children: [
             { path: '/', title: 'All products', type: 'link' },
-            { path: '/products/add-product', title: 'Add product', type: 'link' }
+            { path: '/products/add', title: 'Add product', type: 'link' }
         ]
     },
     {
