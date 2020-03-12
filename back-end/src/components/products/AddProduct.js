@@ -35,10 +35,10 @@ export class AddProduct extends Component {
                                 </div>
                                 <div className="card-body">
                                     <div className="row product-adding">
-                                        <div className="col-sm-12 col-md-12 col-lg-5s col-xl-5">
+                                        <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                                             <ProductPhotoUpload />
                                         </div>
-                                        <div className="col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                                        <div className="col-sm-12 col-md-12 col-lg-8 col-xl-8">
                                             <AvForm className="needs-validation add-product-form" onValidSubmit={this.handleValidSubmit} onInvalidSubmit={this.handleInvalidSubmit}>
                                                 <div className="form form-label-center">
                                                     <GeneralInput

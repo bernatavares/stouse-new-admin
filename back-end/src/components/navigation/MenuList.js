@@ -46,7 +46,7 @@ export class MenuList extends Component {
                                                             menus.map((menu, index) => (
                                                                 <tr key={index}>
                                                                     <td scope="col"><b>{menu.title}</b></td>
-                                                                    <td scope="col">{menu.items.join(",")}</td>
+                                                                    <td scope="col">{menu.items.join(", ")}</td>
                                                                 </tr>
                                                             ))
                                                         }
