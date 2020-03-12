@@ -11,7 +11,7 @@ import GeneralInput from 'components/common/GeneralInput'
 import user from 'assets/images/user.png';
 
 
-export class AddProduct extends Component {
+export class ProductAdd extends Component {
 
     constructor(props) {
         super(props);
@@ -159,4 +159,4 @@ export class AddProduct extends Component {
     }
 }
 
-export default AddProduct
+export default ProductAdd;
