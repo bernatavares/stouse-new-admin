@@ -9,17 +9,16 @@ class TypographySelect extends Component {
   render() {
     const {
       title,
-      backgroundColor,
       fontType,
       fontFamily,
       fontSize
     } = this.props;
 
     return (
-      <div style={{ padding: "5px 20px", backgroundColor: backgroundColor }}>
-        <p style={{ fontSize: "140%", color: "black" }}>
-          <b> {title} </b>
-        </p>
+      <div className="pt-1 pm-5">
+        <h3 style={{color: "black" }}>
+         <b>{title } </b> 
+        </h3>
         <div
           className="row"
           style={{

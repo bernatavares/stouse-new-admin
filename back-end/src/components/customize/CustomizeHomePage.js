@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import Breadcrumb from "../common/Breadcrumb";
 import HomePageMessage from "./components/HomePageMessage";
+import HomeProductGrid from "./components/HomeProductGrid";
 
 export class CustomizeHomePage extends Component {
   render() {
@@ -8,12 +9,9 @@ export class CustomizeHomePage extends Component {
       <Fragment>
         <Breadcrumb mainTitle="Homepage Layout" title="Home Page" parent="Customize" />
         <div className="container-fluid">
-          <div className="row">
-            <div className="col-sm-12">
-              <HomePageMessage />
-            </div>
-          </div>
-        </div>
+          <HomePageMessage />
+          <HomeProductGrid />
+        </div>  
       </Fragment>
     );
   }

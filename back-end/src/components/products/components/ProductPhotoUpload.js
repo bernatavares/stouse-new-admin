@@ -68,11 +68,11 @@ class ProductPhotoUpload extends Component {
     }
     render() {
         return (
-            <div className="add-product product-photo-upload">
-                <div className="block-image">
-                    <img src={one} alt="" className="image_zoom_1 blur-up lazyloaded" />
+            <div className="add-product product-photo-upload d-flex">
+                <div className="block-image pt-1">
+                    <img src={one} alt="" className="image_zoom_1 blur-up lazyloaded"  style={{width:'300px', height:'300px'}} />
                 </div>
-                <div className="block-file-upload">
+                <div className="block-file-upload p-1">
                     <ul className="file-upload-product">
                         {
                             this.state.dummyimgs.map((res, i) => {

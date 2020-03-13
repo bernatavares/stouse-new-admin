@@ -106,8 +106,7 @@ export class ProductAdd extends Component {
                           <div class="row">
                             <div className="col-md-6 col-sm-6">
                               <button
-                                className="btn btn-primary heading"
-                                style={{ margin: "20px 0px", width: "100%" }}
+                                className="btn btn-primary heading mt-3 d-block"
                               >
                                 View Bulk Discounts
                               </button>
