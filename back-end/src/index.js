@@ -10,9 +10,10 @@ import Dashboard from 'components/Dashboard';
 
 import ProductAdd from './components/products/ProductAdd';
 
-import MenuList from './components/navigation/MenuList'
+import MenuList from './components/navigation/MenuList';
 
-import CustomizeTypography from './components/customize/CustomizeTypography'
+import CustomizeTypography from './components/customize/CustomizeTypography';
+import CustomizeHomePage from './components/customize/CustomizeHomePage';
 
 // // Products physical
 // import Category from './components/products/physical/category';
@@ -73,6 +74,7 @@ class Root extends Component {
                             <Route path={`${process.env.PUBLIC_URL}/navigation`} component={MenuList} />
 
                             <Route path={`${process.env.PUBLIC_URL}/customize/typography`} component={CustomizeTypography} />
+                            <Route path={`${process.env.PUBLIC_URL}/customize/homepage`} component={CustomizeHomePage} />
 
                         </App>
                     </Switch>

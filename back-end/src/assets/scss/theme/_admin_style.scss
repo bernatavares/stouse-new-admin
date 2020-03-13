@@ -1471,7 +1471,7 @@ a {
     background-color: $card-header-bg-color;
     border-bottom: none;
     padding: $card-padding;
-    border-bottom: 1px solid $card-border-color;
+    border-bottom: none;
     border-top-left-radius: $card-border-radious;
     border-top-right-radius: $card-border-radious;
     h5 {
@@ -1490,7 +1490,8 @@ a {
     }
   }
   .card-body {
-    padding: $card-padding;
+    padding: $card-padding-body;
+    padding-bottom: $card-padding-body-bottom;
     background-color: $card-body-bg-color;
     p {
       &:last-child {

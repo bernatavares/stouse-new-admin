@@ -11,7 +11,7 @@ export class Breadcrumb extends Component {
             <div className="col-lg-6">
               <div className="page-header-left">
                 <h3>
-                  {this.props.parent}
+                  {this.props.mainTitle? this.props.mainTitle: this.props.parent}
                   <small>Admin Dashbord</small>
                 </h3>
               </div>

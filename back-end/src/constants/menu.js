@@ -15,7 +15,7 @@ import {
 export const MENUITEMS = [
     {
         title: 'Customize', icon: Edit2, type: 'sub', active: false, children: [
-            { path: '/', title: 'Homepage', type: 'link' },
+            { path: '/customize/homepage', title: 'Homepage Layout', type: 'link' },
             { path: '/customize/typography', title: 'Color & Typography', type: 'link' },
             { path: '/', title: 'Google Analytics', type: 'link' }
         ]

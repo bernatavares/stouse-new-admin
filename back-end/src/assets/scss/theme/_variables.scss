@@ -210,7 +210,9 @@ $footer_dark__txt_color : $white;
 
 
 //Card settings
-$card-padding        :30px;
+$card-padding        :20px 30px;
+$card-padding-body   :20px 30px;
+$card-padding-body-bottom: 50px;
 $card-margin-bottom  :30px;
 $card-border-width   :0px;
 $card-border-color   :$light-color;
