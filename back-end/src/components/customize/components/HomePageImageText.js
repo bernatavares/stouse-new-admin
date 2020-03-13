@@ -135,7 +135,7 @@ class HomePageImageText extends Component {
                   placeholder="shop now"
                 />
               </div>
-              <div className="form-group row">
+              <div className="form-group row ">
                 <label
                   htmlFor="validationCustom4"
                   className="col-xl-3 col-md-4"
@@ -149,15 +149,15 @@ class HomePageImageText extends Component {
                   required=""
                   placeholder="www.yourstore.com/page"
                 />
-                
               </div>
-              
-                
-                  <button className="btn btn-secondary col-xl-2 offset-xl-3 col-md-3 offset-md-4">
+
+              <div className="col-md-8 offset-md-4 col-lg-9 offset-lg-3 mt-5" style={{padding:'6px'}}>
+                <div className="row">
+                    <button className="btn btn-secondary col-sm-6 col-md-3">
                       Save
                     </button>
                     <button
-                      className="btn btn-light col-xl-2 col-md-3"
+                      className="btn btn-light col-sm-12 col-md-3"
                       style={{
                         backgroundColor: "white",
                         color: "rgb(187, 187, 187)",
@@ -166,9 +166,9 @@ class HomePageImageText extends Component {
                     >
                       Reset Changes
                     </button>
-             
-               
-             
+                  </div>
+              </div>
+              
             </form>
           </div>
         </div>
@@ -178,14 +178,14 @@ class HomePageImageText extends Component {
           </div>
           <div className="card-body">
             <div className="row">
-              <div className="col-xl-3 col-md-12">
+              <div className="col-xl-2 col-md-12">
                 <p>
                   The promo bar displays Stouse production value messaging, you
                   can choose to display this or not.{" "}
                 </p>
                 <p>Icon images display over your sale price accent color. </p>
               </div>
-              <div className="col-xl-9 col-md-12">
+              <div className="col-xl-9 offset-xl-1 col-md-12">
                 <label className="d-block" htmlFor="chk-ani-1">
                   <input
                     className="checkbox_animated"
@@ -312,7 +312,7 @@ class HomePageImageText extends Component {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-xl-6 col-sm-12 col-md-6 mt-1">
+                  <div className="col-xl-6 col-sm-12 col-md-6 mt-1 mt-5" >
                     <button className="btn btn-secondary col-sm-12 col-md-6">
                       Save
                     </button>

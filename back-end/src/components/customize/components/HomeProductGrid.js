@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import GeneralInput from 'components/common/GeneralInput'
 
 class HomeProductGrid extends Component {
   // eslint-disable-next-line no-useless-constructor
@@ -14,35 +15,40 @@ class HomeProductGrid extends Component {
         </div>
         <div className="card-body">
           <div className="row">
-            <div className="sm-12 md-3 lg-3 mt-1">
-              <p>The Product Grid displays products in increments of 4 You can choose which products to display here</p>
+            <div className="col-sm-12 col-md-3 col-xl-2">
+              <p>
+                The product grid displasy products in increments of 4. You can choose which products to display here.
+              </p>
             </div>
-            <div className="sm-12 md-8 md-offset-1 lg-offset-1 lg-8 mt-1">
-                <div className="row">
-                  <div className="sm-3">
-                    <input tyep="checkbox"/> 4
-                  </div>
-                  <div className="sm-3">
-                    <input tyep="checkbox"/> 8
-                  </div>
-                  <div className="sm-3">
-                    <input tyep="checkbox"/> 12
-                  </div>
-                  <div className="sm-3">
-                    <input tyep="checkbox"/> 16
-                  </div>
-                </div>
-            </div>
-            <div className="col-xl-8 col-sm-12 col-md-6 mt-1">
+            <div className="col-sm-12 col-md-6 col-xl-5 xl-offset-1">
+              <div >
               <input
-                className="form-control"
-                type="text"
-                name="messsing"
-                placeholder="Save 25% on all Kwik-Ship order now through May"
-                required
-              />
+                    className="checkbox_animated"
+                    id="chk-ani-1"
+                    type="checkbox"
+                  />
+                  4
+                  <input
+                    className="checkbox_animated ml-5"
+                    id="chk-ani-2"
+                    type="checkbox"
+                  />
+                  8
+                  <input
+                    className="checkbox_animated ml-5"
+                    id="chk-ani-1"
+                    type="checkbox"
+                  />
+                  12
+                  <input
+                    className="checkbox_animated ml-5"
+                    id="chk-ani-2"
+                    type="checkbox"
+                    checked
+                  />
+                  16
+              </div>
             </div>
-            
           </div>
           <div className="row">
               <button className="btn btn-secondary col-sm-12 col-md-4">
