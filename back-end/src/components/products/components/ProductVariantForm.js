@@ -24,7 +24,7 @@ export class ProductVariantForm extends Component {
                             <div className="form-group mb-3">
                                 <label className="mb-0">Size</label>
                                 <div>
-                                    <AvField className="form-control" name="stouse_sku" id="validationCustom01" type="number" placeholder="00" required />
+                                    <AvField className="form-control" name="stouse_sku1" id="validationCustom01" type="text" placeholder="00" required />
                                 </div>
                                 <div className="valid-feedback">Looks good!</div>
                             </div>
@@ -33,7 +33,7 @@ export class ProductVariantForm extends Component {
                             <div className="form-group mb-3">
                                 <label className="mb-0">Material</label>
                                 <div>
-                                    <AvField className="form-control" name="stouse_sku" id="validationCustom01" type="number" placeholder="00" required />
+                                    <AvField className="form-control" name="stouse_sku2" id="validationCustom01" type="text" placeholder="00" required />
                                 </div>
                                 <div className="valid-feedback">Looks good!</div>
                             </div>
@@ -42,7 +42,7 @@ export class ProductVariantForm extends Component {
                             <div className="form-group mb-3">
                                 <label className="mb-0">Cut</label>
                                 <div>
-                                    <AvField className="form-control" name="stouse_sku" id="validationCustom01" type="number" placeholder="00" required />
+                                    <AvField className="form-control" name="stouse_sku3" id="validationCustom01" type="text" placeholder="00" required />
                                 </div>
                                 <div className="valid-feedback">Looks good!</div>
                             </div>
@@ -51,7 +51,7 @@ export class ProductVariantForm extends Component {
                             <div className="form-group mb-3">
                                 <label className="mb-0">Wholesale</label>
                                 <div>
-                                    <AvField className="form-control" name="stouse_sku" id="validationCustom01" type="number" placeholder="00" required />
+                                    <AvField className="form-control" name="stouse_sku4" id="validationCustom01" type="text" placeholder="00" required />
                                 </div>
                                 <div className="valid-feedback">Looks good!</div>
                             </div>
@@ -60,7 +60,7 @@ export class ProductVariantForm extends Component {
                             <div className="form-group mb-3">
                                 <label className="mb-0">Your Price</label>
                                 <div>
-                                    <AvField className="form-control" name="stouse_sku" id="validationCustom01" type="number" placeholder="00" required />
+                                    <AvField className="form-control" name="stouse_sku5" id="validationCustom01" type="text" placeholder="00" required />
                                 </div>
                                 <div className="valid-feedback">Looks good!</div>
                             </div>
@@ -69,7 +69,7 @@ export class ProductVariantForm extends Component {
                             <div className="form-group mb-3">
                                 <label className="mb-0">SKU</label>
                                 <div>
-                                    <AvField className="form-control" name="stouse_sku" id="validationCustom01" type="number" placeholder="00" required />
+                                    <AvField className="form-control" name="stouse_sku6" id="validationCustom01" type="text" placeholder="00" required />
                                 </div>
                                 <div className="valid-feedback">Looks good!</div>
                             </div>
