@@ -392,6 +392,39 @@ a {
     }
   }
 }
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;  
+  background: #dddddd;
+  outline: none;
+  color: black;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  color: black;
+  height: 20px;
+  border-radius: 50%; 
+  background: black !important;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:black !important;
+  cursor: pointer;
+}
+
 .datepickers-container {
   top: -86px;
 }
@@ -444,6 +477,9 @@ a {
   .row{
     align-items: center;
   }
+
+  
+  
   .tab2-card {
     .nav-tabs {
       .nav-link{
@@ -1369,9 +1405,7 @@ a {
     ) !important;
   }
 }
-.btn-light{
-  margin-left: 7px;
-}
+
 .btn-light-gradien {
   @include btn-gradien(60, lighten($light-color, 8%), 0%, darken($light-color, 8%), 100%, $white);
   &:hover,

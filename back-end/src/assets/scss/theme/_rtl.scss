@@ -461,6 +461,18 @@ body {
         text-align: right;
       }
     }
+    .slider-color {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 15px;
+      border-radius: 5px;
+      background: #d3d3d3;
+      outline: none;
+      opacity: 0.7;
+      -webkit-transition: opacity .15s ease-in-out;
+      transition: opacity .15s ease-in-out;
+    }
+    
     .add-product-form {
       .qty-box {
         .input-group {
