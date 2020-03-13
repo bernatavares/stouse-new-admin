@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import one from 'assets/images/pro3/1.jpg'
-import user from 'assets/images/user.png';
+import one from '../../../assets/images/pro3/1.jpg'
+import user from '../../../assets/images/user.png';
 
 
 class ProductPhotoUpload extends Component {

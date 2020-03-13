@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from "react";
 import CKEditors from "react-ckeditor-component";
-import { ReactComponent as TruckIcon } from "assets/svgs/truck.svg";
-import { ReactComponent as BookIcon } from "assets/svgs/book.svg";
-import { ReactComponent as ComputerIcon } from "assets/svgs/computer.svg";
+import { ReactComponent as TruckIcon } from '../../../assets/svgs/truck.svg';
+import { ReactComponent as BookIcon } from '../../../assets/svgs/book.svg';
+import { ReactComponent as ComputerIcon } from '../../../assets/svgs/computer.svg';
 
 const style = {
   svgIcon: {

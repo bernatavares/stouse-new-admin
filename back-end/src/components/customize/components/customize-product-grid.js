@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import GeneralInput from 'components/common/general-input'
+import GeneralInput from '../../../components/common/general-input'
 import { AvField, AvForm } from "availity-reactstrap-validation";
 
 class CustomizeProductGrid extends Component {

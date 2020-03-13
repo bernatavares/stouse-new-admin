@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import Breadcrumb from "components/common/bread-crumb";
+import Breadcrumb from '../../components/common/bread-crumb';
 import HomePageMessage from "./components/customize-message";
 import HomeProductGrid from "./components/customize-product-grid";
 import HomePageImageText from "./components/customize-image-text";
