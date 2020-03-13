@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import GeneralInput from 'components/common/GeneralInput'
 import { AvField, AvForm } from "availity-reactstrap-validation";
 
-class HomeProductGrid extends Component {
+class HomeCollectionGrid extends Component {
   // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
@@ -12,58 +12,46 @@ class HomeProductGrid extends Component {
     return (
       <div className="card">
         <div className="card-header">
-          <h5>Product Grid</h5>
+          <h5>Collection Grid</h5>
         </div>
         <div className="card-body">
           <div className="row">
             <div className="col-sm-12 col-md-3 col-xl-2">
               <p>
-                The product grid displasy products in increments of 4. You can choose which products to display here.
+                The Collection Grid displays up to 6 collections for easy navigation on the home page. You can set these collections here. If no collections are selected, then this component will not display on the homepage. 
               </p>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-5 offset-xl-1">
-              <div >
-              <input
-                    className="checkbox_animated"
-                    id="chk-ani-1"
-                    type="checkbox"
-                  />
-                  4
-                  <input
-                    className="checkbox_animated ml-5"
-                    id="chk-ani-2"
-                    type="checkbox"
-                  />
-                  8
-                  <input
-                    className="checkbox_animated ml-5"
-                    id="chk-ani-1"
-                    type="checkbox"
-                  />
-                  12
-                  <input
-                    className="checkbox_animated ml-5"
-                    id="chk-ani-2"
-                    type="checkbox"
-                    checked
-                  />
-                  16
-              </div>
-              
-
-              <div className="row mt-4">
+              <div className="row">
                 <div className="col-md-12">
                   <GeneralInput
-                    name="productGridLine"
-                    placeholder="Popular Products"
-                    label="Product Grid Line" />
+                    name="collectionGridLine"
+                    placeholder="Popular Categories"
+                    label="Collection Grid Headline" />
                 </div>
               </div>
-              <div className="row mt-3">
+              <div className="row mt-2">
                 <div className="col-md-12">
-                <AvField type="select" name="select">
-                  <option>Bestsellers</option>
-                  <option>2</option>
+                <AvField type="select" name="select"  >
+                  <option> Select a collection </option>
+                </AvField>
+                <AvField type="select" name="select"  >
+                  <option> Select a collection </option>
+                </AvField>
+                <AvField type="select" name="select"  >
+                  <option> Select a collection </option>
+                </AvField>
+                <AvField type="select" name="select"  >
+                  <option> Select a collection </option>
+                </AvField>
+                <AvField type="select" name="select"  >
+                  <option> Select a collection </option>
+                </AvField>
+                <AvField type="select" name="select"  >
+                  <option> Select a collection </option>
+                </AvField>
+                <AvField type="select" name="select"  >
+                  <option> Select a collection </option>
                 </AvField>
                 </div>
               </div>
@@ -93,4 +81,4 @@ class HomeProductGrid extends Component {
   }
 }
 
-export default HomeProductGrid;
+export default HomeCollectionGrid;
