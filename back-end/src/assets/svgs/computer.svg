@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1295" height="990" rx="4"></rect>
+        <filter x="-1.2%" y="-1.5%" width="102.3%" height="103.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0964270105 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="For-Presentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop_Dashboard_Admin_Customize_Homepage" transform="translate(-665.000000, -1969.000000)">
+            <rect id="Rectangle" fill="#F7F7F9" x="0" y="-293" width="1600" height="3647"></rect>
+            <g id="Group-10" transform="translate(267.000000, 1497.000000)">
+                <g id="Rectangle-Copy-6">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <rect id="Rectangle-Copy-14" stroke="#DDDDDD" stroke-width="1.25" x="650.625" y="1954.625" width="98.75" height="98.75" rx="4"></rect>
+            <g id="Icon" transform="translate(665.000000, 1969.000000)">
+                <rect id="Rectangle" fill="#0076D1" x="0" y="0" width="70" height="70" rx="35"></rect>
+                <g id="icon-theme-306" transform="translate(14.000000, 18.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M33.2,33.2 L8.8,33.2 C8.2,33.2 7.6,32.6 7.6,32 C7.6,31.4 8.2,30.8 8.8,30.8 L33.2,30.8 C33.8,30.8 34.4,31.4 34.4,32 C34.4,32.6 33.8,33.2 33.2,33.2 Z" id="Path"></path>
+                    <g id="Group">
+                        <g transform="translate(27.000000, 0.000000)" id="Path">
+                            <path d="M5.8,14.4 C5.6,14.4 5.4,14.4 5.2,14.2 C4.6,13.8 4.4,13 4.8,12.4 L12,1.4 C12.4,0.8 13.2,0.6 13.8,1 C14.4,1.4 14.6,2.2 14.2,2.8 L7,14 C6.6,14.2 6.2,14.4 5.8,14.4 Z"></path>
+                            <path d="M5.8,14.4 C5.4,14.4 5,14.2 4.8,13.8 L1.2,8.2 C0.8,7.6 1,6.8 1.6,6.4 C2.2,6 3,6.2 3.4,6.8 L7,12.4 C7.4,13 7.2,13.8 6.6,14.2 C6.2,14.4 6,14.4 5.8,14.4 Z"></path>
+                        </g>
+                        <g id="Path">
+                            <path d="M38,26 L4,26 C2.2,26 0.8,24.6 0.8,22.8 L0.8,4 C0.8,2.2 2.2,0.8 4,0.8 L32,0.8 C32.6,0.8 33.2,1.4 33.2,2 C33.2,2.6 32.6,3.2 32,3.2 L4,3.2 C3.6,3.2 3.2,3.6 3.2,4 L3.2,22.8 C3.2,23.2 3.6,23.6 4,23.6 L38,23.6 C38.4,23.6 38.8,23.2 38.8,22.8 L38.8,12 C38.8,11.4 39.4,10.8 40,10.8 C40.6,10.8 41.2,11.4 41.2,12 L41.2,22.8 C41.2,24.6 39.8,26 38,26 Z"></path>
+                            <path d="M8.8,9 L22.2,9 C22.6,9 22.8,9.2 23,9.4 C23.2,9.6 23.4,10 23.4,10.2 C23.4,10.6 23.2,10.8 23,11 C22.8,11.2 22.4,11.4 22.2,11.4 L8.8,11.4 C8.4,11.4 8.2,11.2 8,11 C7.6,10.8 7.6,10.6 7.6,10.2 C7.6,9.8 7.8,9.6 8,9.4 C8.2,9.2 8.4,9 8.8,9 Z"></path>
+                            <path d="M8.8,15.2 L19.8,15.2 C20.2,15.2 20.4,15.4 20.6,15.6 C20.8,15.8 21,16.2 21,16.4 C21,16.6 20.8,17 20.6,17.2 C20.4,17.4 20,17.6 19.8,17.6 L8.8,17.6 C8.4,17.6 8.2,17.4 8,17.2 C7.8,17 7.6,16.6 7.6,16.4 C7.6,16.2 7.8,15.8 8,15.6 C8.2,15.4 8.4,15.2 8.8,15.2 Z"></path>
+                        </g>
+                    </g>
+                    <path d="M27.8,33.2 L14.2,33.2 C13.6,33.2 13,32.6 13,32 L13,24.8 C13,24.2 13.6,23.6 14.2,23.6 L27.6,23.6 C28.2,23.6 28.8,24.2 28.8,24.8 L28.8,32 C29,32.6 28.4,33.2 27.8,33.2 Z M15.6,30.8 L26.6,30.8 L26.6,26 L15.6,26 L15.6,30.8 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
