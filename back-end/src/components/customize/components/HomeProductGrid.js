@@ -30,19 +30,19 @@ class HomeProductGrid extends Component {
                   />
                   4
                   <input
-                    className="checkbox_animated ml-5"
+                    className="checkbox_animated ml-4"
                     id="chk-ani-2"
                     type="checkbox"
                   />
                   8
                   <input
-                    className="checkbox_animated ml-5"
+                    className="checkbox_animated ml-4"
                     id="chk-ani-1"
                     type="checkbox"
                   />
                   12
                   <input
-                    className="checkbox_animated ml-5"
+                    className="checkbox_animated ml-4"
                     id="chk-ani-2"
                     type="checkbox"
                     checked
