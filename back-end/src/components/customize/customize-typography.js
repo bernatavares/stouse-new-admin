@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import Breadcrumb from "../common/Breadcrumb";
-import TypographySelect from "./components/TypographySelect";
+import TypographySelect from "./components/customize-typography-select";
 
 export class CustomizeTypography extends Component {
   render() {

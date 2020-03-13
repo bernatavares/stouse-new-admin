@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import GeneralInput from 'components/common/GeneralInput'
+import GeneralInput from 'components/common/general-input'
 import { AvField, AvForm } from "availity-reactstrap-validation";
 
-class HomeProductGrid extends Component {
+class CustomizeProductGrid extends Component {
   // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
@@ -93,4 +93,4 @@ class HomeProductGrid extends Component {
   }
 }
 
-export default HomeProductGrid;
+export default CustomizeProductGrid;

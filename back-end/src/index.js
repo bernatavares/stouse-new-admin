@@ -6,14 +6,14 @@ import App from './components/app';
 import { ScrollContext } from 'react-router-scroll-4';
 
 // Components
-import Dashboard from 'components/Dashboard';
+import Dashboard from 'components/dashboard';
 
-import ProductAdd from './components/products/ProductAdd';
+import ProductAdd from './components/products/product-add';
 
-import MenuList from './components/navigation/MenuList';
+import MenuList from './components/navigation/menu-list';
 
-import CustomizeTypography from './components/customize/CustomizeTypography';
-import CustomizeHomePage from './components/customize/CustomizeHomePage';
+import CustomizeTypography from './components/customize/customize-typography';
+import CustomizeHomePage from './components/customize/customize-home-page';
 
 // // Products physical
 // import Category from './components/products/physical/category';

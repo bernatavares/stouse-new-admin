@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class HomePageMessage extends Component {
+class CustomizeMessage extends Component {
   // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
@@ -45,4 +45,4 @@ class HomePageMessage extends Component {
   }
 }
 
-export default HomePageMessage;
+export default CustomizeMessage;

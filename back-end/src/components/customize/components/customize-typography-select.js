@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class TypographySelect extends Component {
+class CustomizeTypographySelect extends Component {
   // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
@@ -87,4 +87,4 @@ class TypographySelect extends Component {
   }
 }
 
-export default TypographySelect;
+export default CustomizeTypographySelect;

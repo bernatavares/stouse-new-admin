@@ -18,7 +18,7 @@ const style = {
   }
 };
 
-class HomePageImageText extends Component {
+class CustomizeImageText extends Component {
   // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
@@ -337,4 +337,4 @@ class HomePageImageText extends Component {
   }
 }
 
-export default HomePageImageText;
+export default CustomizeImageText;

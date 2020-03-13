@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from "react";
-import Breadcrumb from "../common/Breadcrumb";
-import HomePageMessage from "./components/HomePageMessage";
-import HomeProductGrid from "./components/HomeProductGrid";
-import HomePageImageText from "./components/HomePageImageText";
-import HomeCollectionGrid from "./components/HomeCollectionGrid";
+import Breadcrumb from "components/common/bread-crumb";
+import HomePageMessage from "./components/customize-message";
+import HomeProductGrid from "./components/customize-product-grid";
+import HomePageImageText from "./components/customize-image-text";
+import HomeCollectionGrid from "./components/customize-collection-grid";
 import { AvField, AvForm } from "availity-reactstrap-validation";
 
 
