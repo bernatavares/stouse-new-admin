@@ -6,7 +6,7 @@ import App from './components/app';
 import { ScrollContext } from 'react-router-scroll-4';
 
 // Components
-import Dashboard from 'components/dashboard';
+import Dashboard from './components/dashboard';
 
 import ProductAdd from './components/products/product-add';
 
