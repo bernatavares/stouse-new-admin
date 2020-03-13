@@ -1,12 +1,11 @@
 import React, { Component, Fragment } from 'react';
-import Breadcrumb from '../common/Breadcrumb';
+import Breadcrumb from 'components/common/Breadcrumb';
 import CKEditors from "react-ckeditor-component";
 import { AvField, AvForm } from 'availity-reactstrap-validation';
 
 import ProductVariantForm from './components/ProductVariantForm';
 import ProductPhotoUpload from './components/ProductPhotoUpload';
 import GeneralInput from 'components/common/GeneralInput'
-
 
 import user from 'assets/images/user.png';
 

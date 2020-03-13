@@ -4,3 +4,4 @@ node_modules/
 settings.json
 # Local Netlify folder
 .netlify
+back-end/build
