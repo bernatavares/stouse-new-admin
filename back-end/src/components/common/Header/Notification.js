@@ -6,7 +6,6 @@ export class Notification extends Component {
     render() {
         return (
             <Fragment>
-                
                         <ul className="notification-dropdown onhover-show-div p-0">
                             <li>Notification <span className="badge badge-pill badge-primary pull-right">3</span></li>
                             <li>
