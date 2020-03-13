@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Breadcrumb from '../common/Breadcrumb';
+import Breadcrumb from '../common/bread-crumb';
 import Tabset_page from './tabset-page';
 
 export class Create_page extends Component {

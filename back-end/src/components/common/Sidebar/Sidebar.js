@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import User_panel from './UserPannel';
+import User_panel from './user-pannel';
 import { Link } from 'react-router-dom';
 import { MENUITEMS } from 'constants/menu';
 

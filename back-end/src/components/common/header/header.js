@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
-import Notification from './Notification';
-import UserMenu from './UserMenu';
+import Notification from './notification';
+import UserMenu from './user-menu';
 import { AlignLeft, Bell, MoreHorizontal } from 'react-feather';
 
 //images

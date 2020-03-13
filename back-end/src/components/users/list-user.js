@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom'
-import Breadcrumb from '../common/Breadcrumb';
+import Breadcrumb from '../common/bread-crumb';
 import data from '../../assets/data/listUser';
 import Datatable from '../common/Datatable'
 

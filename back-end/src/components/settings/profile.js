@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 
 import designer from '../../assets/images/dashboard/designer.jpg';
 import Tabset_profile from './tabset-profile';
-import Breadcrumb from '../common/Breadcrumb';
+import Breadcrumb from '../common/bread-crumb';
 
 export class Profile extends Component {
     render() {

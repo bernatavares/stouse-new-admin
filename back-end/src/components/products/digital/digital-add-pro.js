@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Breadcrumb from '../../common/Breadcrumb';
+import Breadcrumb from '../../common/bread-crumb';
 import CKEditors from "react-ckeditor-component";
 import MyDropzone from '../../common/Dropzone'
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Sidebar from './common/Sidebar/';
+import Sidebar from './common/sidebar';
 import RightSidebar from './common/RightSidebar';
 import Footer from './common/footer';
 import Header from './common/header/header';

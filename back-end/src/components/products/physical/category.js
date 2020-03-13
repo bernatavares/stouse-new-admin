@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import Breadcrumb from '../../common/Breadcrumb';
+import Breadcrumb from '../../common/bread-crumb';
 import Modal from 'react-responsive-modal';
 import 'react-toastify/dist/ReactToastify.css';
 import data from '../../../assets/data/category';

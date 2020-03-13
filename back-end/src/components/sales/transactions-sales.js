@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import Breadcrumb from '../common/Breadcrumb';
+import Breadcrumb from '../common/bread-crumb';
 import data from '../../assets/data/sales-transactions';
 import Datatable from '../common/Datatable';
 

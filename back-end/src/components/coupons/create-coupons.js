@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import Breadcrumb from '../common/Breadcrumb';
+import Breadcrumb from '../common/bread-crumb';
 import Tabset from './tabset';
 
 export class Create_coupons extends Component {

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import Breadcrumb from '../../common/Breadcrumb';
+import Breadcrumb from '../../common/bread-crumb';
 import data from '../../../assets/data/physical_list';
 import { Edit, Trash2 } from 'react-feather'
 

@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Tabset_user from '../users/tabset-user';
-import Breadcrumb from '../common/Breadcrumb';
+import Breadcrumb from '../common/bread-crumb';
 
 export class Create_vendors extends Component {
     render() {
