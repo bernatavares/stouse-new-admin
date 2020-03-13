@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import Breadcrumb from "../common/bread-crumb";
 import data from "../../assets/data/listMenu";
-import Datatable from "../common/Datatable";
+import Datatable from "../common/datatable";
 import ReactTable from "react-table";
 import { ShoppingBag } from "react-feather";
 

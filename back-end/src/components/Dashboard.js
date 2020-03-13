@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Breadcrumb from './common/Breadcrumb';
+import Breadcrumb from 'components/common/bread-crumb';
 import { Navigation, Box, MessageSquare, Users, Briefcase, CreditCard, ShoppingCart, Calendar } from 'react-feather';
 import CountUp from 'react-countup';
 import { Chart } from "react-google-charts";

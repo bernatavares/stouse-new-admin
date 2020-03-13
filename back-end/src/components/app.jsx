@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Sidebar from './common/Sidebar/';
 import RightSidebar from './common/RightSidebar';
-import Footer from './common/Footer';
-import Header from './common/Header/Header';
+import Footer from './common/footer';
+import Header from './common/header/header';
 
 export class App extends Component {
     constructor(props) {
